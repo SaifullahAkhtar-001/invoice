@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <div class="text-xl h-[100vh] flex flex-col justify-between pb-12">
+      <div>
+        <div class="flex justify-end mb-12">
+          <img
+            class="h-[20px] w-[300px]"
+            src="./img/Modern Minimalist Simple Technology Banner.png"
+            alt=""
+          />
+        </div>
+        <div class="mx-24">
+          <div class="flex justify-between mb-12 items-end">
+            <div class="flex items-end gap-4">
+              <div class="h-24 w-24 bg-pink-100">
+                <img
+                  src="./img/Modern Minimalist Simple Technology Banner.png"
+                  alt="put img here"
+                />
+              </div>
+              <div class="text-4xl font-semibold">Company Name</div>
+            </div>
+            <div class="text-6xl font-semibold">Invoice</div>
+          </div>
+          <div class="mb-12">
+            <p class="">Billing to:</p>
+            <h1 class="underline text-2xl font-semibold">ABC Campany</h1>
+            <p><span class="text-xl font-semibold">Name:</span> abc</p>
+            <p><span class="text-xl font-semibold">Phone Number:</span> abc</p>
+            <p><span class="text-xl font-semibold">Email:</span> abc</p>
+            <p><span class="text-xl font-semibold">Address:</span> abc</p>
+          </div>
+          <div class="flex flex-col mx-0 mt-8">
+            <table class="min-w-full divide-y divide-slate-500">
+              <thead>
+                <tr>
+                  <th
+                    scope="col"
+                    class="py-3.5 pl-4 pr-3 text-left text-sm font-normal text-slate-700 sm:pl-6 md:pl-0"
+                  >
+                    Sr.
+                  </th>
+                  <th
+                    scope="col"
+                    class="py-3.5 pl-4 pr-3 text-left text-sm font-normal text-slate-700 sm:pl-6 md:pl-0"
+                  >
+                    Description
+                  </th>
+                  <th
+                    scope="col"
+                    class="hidden py-3.5 px-3 text-right text-sm font-normal text-slate-700 sm:table-cell"
+                  >
+                    Quantity
+                  </th>
+                  <th
+                    scope="col"
+                    class="hidden py-3.5 px-3 text-right text-sm font-normal text-slate-700 sm:table-cell"
+                  >
+                    Rate
+                  </th>
+                  <th
+                    scope="col"
+                    class="py-3.5 pl-3 pr-4 text-right text-sm font-normal text-slate-700 sm:pr-6 md:pr-0"
+                  >
+                    Amount
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="border-b border-slate-200">
+                  <td class="w-24">1</td>
+                  <td class="py-4 pl-4 pr-3 text-sm sm:pl-6 md:pl-0">
+                    <div class="font-medium text-slate-700">Tesla Truck</div>
+                    <div class="mt-0.5 text-slate-500 sm:hidden">
+                      1 unit at $0.00
+                    </div>
+                  </td>
+                  <td
+                    class="hidden px-3 py-4 text-sm text-right text-slate-500 sm:table-cell"
+                  >
+                    48
+                  </td>
+                  <td
+                    class="hidden px-3 py-4 text-sm text-right text-slate-500 sm:table-cell"
+                  >
+                    $0.00
+                  </td>
+                  <td
+                    class="py-4 pl-3 pr-4 text-sm text-right text-slate-500 sm:pr-6 md:pr-0"
+                  >
+                    $0.00
+                  </td>
+                </tr>
+                <tr class="border-b border-slate-200">
+                  <td class="w-24">1</td>
+                  <td class="py-4 pl-4 pr-3 text-sm sm:pl-6 md:pl-0">
+                    <div class="font-medium text-slate-700">Tesla Truck</div>
+                    <div class="mt-0.5 text-slate-500 sm:hidden">
+                      1 unit at $0.00
+                    </div>
+                  </td>
+                  <td
+                    class="hidden px-3 py-4 text-sm text-right text-slate-500 sm:table-cell"
+                  >
+                    48
+                  </td>
+                  <td
+                    class="hidden px-3 py-4 text-sm text-right text-slate-500 sm:table-cell"
+                  >
+                    $0.00
+                  </td>
+                  <td
+                    class="py-4 pl-3 pr-4 text-sm text-right text-slate-500 sm:pr-6 md:pr-0"
+                  >
+                    $0.00
+                  </td>
+                </tr>
+
+                <!-- Here you can write more products/tasks that you want to charge for-->
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th
+                    scope="row"
+                    colspan="4"
+                    class="hidden font-semibold pt-4 pl-6 pr-3 text-sm text-right text-slate-700 sm:table-cell md:pl-0"
+                  >
+                    Total
+                  </th>
+                  <th
+                    scope="row"
+                    class="pt-4 pl-4 pr-3 text-sm font-semibold text-left text-slate-700 sm:hidden"
+                  >
+                    Total
+                  </th>
+                  <td
+                    class="pt-4 pl-3 pr-4 text-sm font-normal text-right text-slate-700 sm:pr-6 md:pr-0"
+                  >
+                    $0.00
+                  </td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-between items-end mx-24">
+        <p class="font-semibold">
+            Thanks you for Your business
+        </p>
+        <p class="overline">Authorized Sinagure</p>
+      </div>
+    </div>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>
